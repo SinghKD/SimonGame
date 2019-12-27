@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  /* background-color: white; */
+  background-image: url("3vZjpA5.jpg");
+}
+
+h1 {
+  font-family: zealotCollege, 'Press Start 2P', cursive;
+  font-size: 3.5rem;
+  margin:  2%;
+  color: #FEF2BF;
+  line-height: 1.5;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#restart{
+  font-size: 3rem;
+  margin-top: 7%;
+  color: #f29538;
+  font-family: 'Courier Prime';
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+@font-face{
+  font-family: zealotCollege;
+  src: url("fonts/zealot-light-ba92.ttf");
+}
+
+.hide{
+  display: none;
+}
